@@ -24,9 +24,9 @@ As a reference book I mainly used Java for Web Applications by Nicholas S. Willi
 
 Note: this project was run on my home computer. To run it on your system you have to edit some files to customize them to your actual file system. They are:
 
-production/java/com/dub/site/actors/ActorController.java:		String path = "/home/dominique/Pictures/tmp/" + fileName; 
+source/production/resources/install.properties:		photoTempDir=/home/dominique/Pictures/tmp/
 
-production/resources/log4j2.xml:        <RollingFile name="DUbFileAppender" fileName="/home/dominique/logs/support.log"
-production/resources/log4j2.xml:                     filePattern="/home/dominique/logs/support-%d{MM-dd-yyyy}-%i.log">
+source/production/resources/log4j2.xml:        <RollingFile name="DUbFileAppender" fileName="/home/dominique/logs/support.log"
+					                     filePattern="/home/dominique/logs/support-%d{MM-dd-yyyy}-%i.log">
 
 where the folder /home/dominique should be replaced by a folder that matches your own file system.
