@@ -16,8 +16,6 @@ For the basic JDBC version of this project see the repository:
 
 https://github.com/dubersfeld/MoviesWebJDBC
 
-dubersfeld/MoviesWebJDBC
-
 For a full tutorial about this project please visit my personal site:
 
 http://www.dominique-ubersfeld.com/JAVADEV/SpringDevelopment.html
