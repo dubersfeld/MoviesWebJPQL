@@ -26,7 +26,7 @@ Note: this project was run on my home computer. To run it on your system you hav
 
 source/production/resources/install.properties:		photoTempDir=/home/dominique/Pictures/tmp/
 
-source/production/resources/log4j2.xml:        <RollingFile name="DUbFileAppender" fileName="/home/dominique/logs/support.log"
-					                     filePattern="/home/dominique/logs/support-%d{MM-dd-yyyy}-%i.log">
+source/production/resources/log4j2.xml:        &lt;RollingFile name="DUbFileAppender" fileName="/home/dominique/logs/support.log"
+					                     filePattern="/home/dominique/logs/support-%d{MM-dd-yyyy}-%i.log"&gt;
 
 where the folder /home/dominique should be replaced by a folder that matches your own file system.
