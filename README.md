@@ -30,3 +30,11 @@ source/production/resources/log4j2.xml:        &lt;RollingFile name="DUbFileAppe
 					                     filePattern="/home/dominique/logs/support-%d{MM-dd-yyyy}-%i.log"&gt;
 
 where the folder /home/dominique should be replaced by a folder that matches your own file system.
+
+This project can be deployed on Tomcat with the context root: 
+
+localhost:8080/movies-web
+
+
+
+Dominique Ubersfeld, Cachan, France
