@@ -2,7 +2,7 @@
 
 This is a demonstration project on Spring development. It involves:
 
-MySQL as a database server
+MySQL as a database server (I used version 8.0)
 
 moviesDBBasic.sql was used to generate the MySql database used in this project.
 

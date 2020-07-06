@@ -12,12 +12,15 @@ spring:
         physical-strategy:
           org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
    
   datasource:
     platform: mysql
-    url: "jdbc:mysql://localhost:3306/movieDB"
+    url: "jdbc:mysql://localhost:3306/movieDB?serverTimezone=UTC&useLegacyDatetimeCode=false"
     username: spring
-    password: password1234
+    password: spring1234
     
 # Edit to match your own file system
-photoTempDir: "/home/ubersfeld/Pictures/tmp/"
+photoTempDir: "/home/dominique/Pictures/tmp/"
